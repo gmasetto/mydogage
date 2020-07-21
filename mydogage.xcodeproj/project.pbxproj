@@ -13,6 +13,7 @@
 		5C83A743237519570023A4DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C83A741237519570023A4DA /* Main.storyboard */; };
 		5C83A745237519590023A4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C83A744237519590023A4DA /* Assets.xcassets */; };
 		5C83A748237519590023A4DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C83A746237519590023A4DA /* LaunchScreen.storyboard */; };
+		5C83A75023751E670023A4DA /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C83A74F23751E670023A4DA /* logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5C83A744237519590023A4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C83A747237519590023A4DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C83A749237519590023A4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C83A74F23751E670023A4DA /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = ../../../Downloads/logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		5C83A73A237519570023A4DA /* mydogage */ = {
 			isa = PBXGroup;
 			children = (
+				5C83A74F23751E670023A4DA /* logo.jpg */,
 				5C83A73B237519570023A4DA /* AppDelegate.swift */,
 				5C83A73D237519570023A4DA /* SceneDelegate.swift */,
 				5C83A73F237519570023A4DA /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C83A75023751E670023A4DA /* logo.jpg in Resources */,
 				5C83A748237519590023A4DA /* LaunchScreen.storyboard in Resources */,
 				5C83A745237519590023A4DA /* Assets.xcassets in Resources */,
 				5C83A743237519570023A4DA /* Main.storyboard in Resources */,

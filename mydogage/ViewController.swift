@@ -10,11 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ageDog: UITextField!
+    @IBOutlet weak var result: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func findAgeDog(_ sender: Any) {
+        result.text = "Resultado: " + String(Int(ageDog.text!)! * 7)
+        print(result.text!)
+    }
+    
 }
 
